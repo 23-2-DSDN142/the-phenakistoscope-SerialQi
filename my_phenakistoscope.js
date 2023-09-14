@@ -1,7 +1,7 @@
 const SLICE_COUNT = 9;//分割数量
 
 function setup_pScope(pScope){
-  //pScope.output_mode(OUTPUT_GIF(1000));
+  //pScope.output_mode(OUTPUT_PRINT(A3));
   pScope.output_mode(ANIMATED_DISK);
   pScope.scale_for_screen(true);
   pScope.draw_layer_boundaries(false);
